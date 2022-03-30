@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../styles.css" rel="stylesheet" />
+    <title>Aula - 4 - Login</title>
+  </head>
+  <body>
+    <section class="container-login">
+      <form class="form">
+        <h1 class="title">Faça seu login</h1>
+        <div class="box">
+          <label class="label-field" for="email-field">E-mail</label>
+          <input
+            type="email"
+            placeholder="Digite seu nome completo"
+            id="email-field"
+            class="field-input"
+            required
+          />
+        </div>
+        <div class="box">
+          <label class="label-field" for="password-field">Senha</label>
+          <input
+            type="password"
+            placeholder="Digite seu nome completo"
+            id="password-field"
+            class="field-input"
+            required
+          />
+        </div>
+        <div class="double-box account">
+          <div class="label-field">
+            <input type="checkbox" class="checkbox-field" />
+            <span>Mantenha-me conectado</span>
+          </div>
+          <div class="label-field"><a href="#">Esqueci minha senha</a></div>
+        </div>
+        <button class="button">Entrar</button>
+        <div class="label-field">
+          <p class="account">
+            Ainda não tem uma conta? <a href="./login.html">Cadastre-se</a>
+          </p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
